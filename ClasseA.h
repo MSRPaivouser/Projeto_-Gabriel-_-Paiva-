@@ -18,6 +18,7 @@ public:
 
     void MA1();
     void MA2();
+    void MA3();
 };
 
 #endif

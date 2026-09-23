@@ -1,23 +1,15 @@
-#ifndef CLASSEB_H
-#define CLASSEB_H
+#include "ClasseB.h"
+#include <iostream>
 
-class ClasseB {
-private:
-    int B1;
-    float B2;
+ClasseB::ClasseB() : B1(0), B2(0.0f) {}
+ClasseB::ClasseB(int b1, float b2) : B1(b1), B2(b2) {}
 
-public:
-    ClasseB();
-    ClasseB(int b1, float b2);
+int ClasseB::getB1() const { return B1; }
+float ClasseB::getB2() const { return B2; }
 
-    int getB1() const;
-    float getB2() const;
+void ClasseB::setB1(int b1) { B1 = b1; }
+void ClasseB::setB2(float b2) { B2 = b2; }
 
-    void setB1(int b1);
-    void setB2(float b2);
-
-    void MB1();
-    void MB2();
-};
-
-#endif
+void ClasseB::MB1() { std::cout << "MB1" << std::endl; }
+void ClasseB::MB2() { std::cout << "MB2" << std::endl; }
+void ClasseB::MB3() { std::cout << "MB3" << std::endl; }

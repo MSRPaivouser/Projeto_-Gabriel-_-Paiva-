@@ -20,6 +20,7 @@ public:
 
     void MC1();
     void MC2();
+    void MC3();
 };
 
 #endif

@@ -12,3 +12,4 @@ void ClasseC::setC2(int c2) { C2 = c2; }
 
 void ClasseC::MC1() { std::cout << "MC1" << std::endl; }
 void ClasseC::MC2() { std::cout << "MC2" << std::endl; }
+void ClasseC::MC3() { std::cout << "MC3" << std::endl; }

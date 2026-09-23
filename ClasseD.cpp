@@ -13,5 +13,5 @@ void ClasseD::setD2(std::string d2) { D2 = d2; }
 void ClasseD::MD1() { std::cout << "MD1" << std::endl; }
 void ClasseD::MD2() { std::cout << "MD2" << std::endl; }
 void ClasseD::MD4() {
-    std::cout << "MD4" << std::endl;
+    std::cout << "MD5" << std::endl;
 }

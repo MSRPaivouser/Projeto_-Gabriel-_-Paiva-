@@ -15,3 +15,6 @@ void ClasseD::MD2() { std::cout << "MD2" << std::endl; }
 void ClasseD::MD3() {
     std::cout << "MD3" << std::endl;
 }
+void ClasseD::MD4() {
+    std::cout << "MD4" << std::endl;
+}

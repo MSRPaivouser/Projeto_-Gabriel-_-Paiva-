@@ -20,6 +20,7 @@ public:
 
     void MD1();
     void MD2();
+    void MD3();
 };
 
 #endif
